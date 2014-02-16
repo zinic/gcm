@@ -104,7 +104,7 @@
         "familiarities": [
             {
                 "name": "Chinese",
-                "is_native": true,
+                "native": true,
 
                 "reference": {
                     "name": "Basic Set",
@@ -113,7 +113,7 @@
             },
             {
                 "name": "English",
-                "is_native": true,
+                "native": true,
 
                 "reference": {
                     "name": "Basic Set",
@@ -126,7 +126,10 @@
     "advantages": [
         {
             "name": "Fit",
+            "type": "advantage",
+
             "cp_cost": 5,
+            "monetary_cost": 0.00,
             "details": "",
 
             "reference": {
@@ -136,7 +139,10 @@
         },
         {
             "name": "Military Rank 1",
+            "type": "advantage",
+
             "cp_cost": 5,
+            "monetary_cost": 0.00,
             "details": "E4",
 
             "reference": {
@@ -146,7 +152,10 @@
         },
         {
             "name": "Patron",
+            "type": "advantage",
+
             "cp_cost": 10,
+            "monetary_cost": 0.00,
             "details": "Unincorporated Republic of Alaska Coast Guard",
 
             "reference": {
@@ -156,7 +165,10 @@
         },
         {
             "name": "Naval Training",
+            "type": "advantage",
+
             "cp_cost": 1,
+            "monetary_cost": 0.00,
             "details": "",
 
             "reference": {
@@ -166,7 +178,10 @@
         },
         {
             "name": "Combat Reflexes",
+            "type": "advantage",
+
             "cp_cost": 15,
+            "monetary_cost": 0.00,
             "details": "",
 
             "reference": {
@@ -176,7 +191,10 @@
         },
         {
             "name": "Penetrating Voice",
+            "type": "advantage",
+
             "cp_cost": 1,
+            "monetary_cost": 0.00,
             "details": "",
 
             "reference": {
@@ -186,7 +204,10 @@
         },
         {
             "name": "Skeleton Tongue",
+            "type": "advantage",
+
             "cp_cost": 10,
+            "monetary_cost": 0.00,
             "details": "Grants Mimicry - See Basic Set pg68",
 
             "reference": {
@@ -196,7 +217,10 @@
         },
         {
             "name": "Disguised Appearance",
+            "type": "advantage",
+
             "cp_cost": 0,
+            "monetary_cost": 0.00,
             "details": "Acquaintances require IQ check to identify character.",
 
             "reference": {
@@ -206,7 +230,10 @@
         },
         {
             "name": "Longevity",
+            "type": "advantage",
+
             "cp_cost": 2,
+            "monetary_cost": 0.00,
             "details": "",
 
             "reference": {
@@ -216,7 +243,10 @@
         },
         {
             "name": "Altered Height",
+            "type": "advantage",
+
             "cp_cost": 0,
+            "monetary_cost": 0.00,
             "details": "",
 
             "reference": {
@@ -226,7 +256,10 @@
         },
         {
             "name": "No Appendix",
+            "type": "advantage",
+
             "cp_cost": 0,
+            "monetary_cost": 0.00,
             "details": "",
 
             "reference": {
@@ -236,6 +269,8 @@
         },
         {
             "name": "Boosted Heart",
+            "type": "advantage",
+
             "cp_cost": 0,
             "monetary_cost": 31000.00,
             "details": "",
@@ -247,7 +282,10 @@
         },
         {
             "name": "Hard to Kill +1",
+            "type": "advantage",
+
             "cp_cost": 0,
+            "monetary_cost": 0.00,
             "details": "Granted by Boosted Heart",
 
             "reference": {
@@ -260,6 +298,8 @@
     "skills": [
         {
             "name": "Soldier",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "easy",
             "controlling_attribute": "iq",
@@ -272,6 +312,8 @@
         },
         {
             "name": "Swimming",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "easy",
             "controlling_attribute": "health",
@@ -284,6 +326,8 @@
         },
         {
             "name": "Singing",
+            "type": "skill",
+
             "proficiency": 1,
             "difficulty": "easy",
             "controlling_attribute": "health",
@@ -296,6 +340,8 @@
         },
         {
             "name": "Armory (Small Arms)",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "average",
             "controlling_attribute": "iq",
@@ -308,6 +354,8 @@
         },
         {
             "name": "Chemistry",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "hard",
             "controlling_attribute": "iq",
@@ -320,6 +368,8 @@
         },
         {
             "name": "Engineer (Materials)",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "hard",
             "controlling_attribute": "iq",
@@ -332,6 +382,8 @@
         },
         {
             "name": "Dancing",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "easy",
             "controlling_attribute": "dexterity",
@@ -344,6 +396,8 @@
         },
         {
             "name": "Guns (Gyroc)",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "easy",
             "controlling_attribute": "dexterity",
@@ -356,6 +410,8 @@
         },
         {
             "name": "Guns (LMG)",
+            "type": "skill",
+
             "proficiency": 1,
             "difficulty": "easy",
             "controlling_attribute": "dexterity",
@@ -368,6 +424,8 @@
         },
         {
             "name": "Guns (Pistol)",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "easy",
             "controlling_attribute": "dexterity",
@@ -380,6 +438,8 @@
         },
         {
             "name": "Musical Influence",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "hard",
             "controlling_attribute": "iq",
@@ -392,6 +452,8 @@
         },
         {
             "name": "Detect Lies",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "hard",
             "controlling_attribute": "perception",
@@ -404,6 +466,8 @@
         },
         {
             "name": "Disguise",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "average",
             "controlling_attribute": "iq",
@@ -416,6 +480,8 @@
         },
         {
             "name": "Holdout",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "average",
             "controlling_attribute": "iq",
@@ -428,6 +494,8 @@
         },
         {
             "name": "Diplomacy",
+            "type": "skill",
+
             "proficiency": 0,
             "difficulty": "hard",
             "controlling_attribute": "iq",
@@ -444,6 +512,7 @@
         {
             "name": "Duty",
             "type": "disadvantage",
+
             "cp_return": 15,
             "details": "Unincorporated Republic of Alaska Coast Guard",
 
@@ -455,6 +524,7 @@
         {
             "name": "Secret (Serious Embarrassment)",
             "type": "disadvantage",
+
             "cp_return": 5,
             "details": "Was a mail-order bride.",
 
@@ -466,6 +536,7 @@
         {
             "name": "Callous",
             "type": "disadvantage",
+
             "cp_return": 15,
             "details": "",
 
@@ -477,6 +548,7 @@
         {
             "name": "Curious",
             "type": "disadvantage",
+
             "cp_return": 5,
             "details": "",
 
@@ -488,6 +560,7 @@
         {
             "name": "Insomnia (Severe)",
             "type": "disadvantage",
+
             "cp_return": 15,
             "details": "",
 
@@ -499,6 +572,7 @@
         {
             "name": "Careful",
             "type": "quirk",
+
             "cp_return": 1,
             "details": "",
 
@@ -509,8 +583,9 @@
         },
         {
             "name": "Alcohol Intolerance",
-            "cp_return": 1,
             "type": "quirk",
+
+            "cp_return": 1,
             "details": "",
 
             "reference": {
@@ -520,8 +595,9 @@
         },
         {
             "name": "Horrible Hangovers",
-            "cp_return": 1,
             "type": "quirk",
+
+            "cp_return": 1,
             "details": "",
 
             "reference": {
@@ -531,8 +607,9 @@
         },
         {
             "name": "Amnesia",
-            "cp_return": 10,
             "type": "disadvantage",
+
+            "cp_return": 10,
             "details": "",
 
             "reference": {
@@ -542,8 +619,9 @@
         },
         {
             "name": "Flashbacks",
-            "cp_return": 5,
             "type": "disadvantage",
+
+            "cp_return": 5,
             "details": "",
 
             "reference": {
