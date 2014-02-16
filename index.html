@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>GURPS Character Manager 0.1</title>
+
+        <!-- Links -->
+        <link rel="stylesheet" type="text/css" href="./lib/style.css" />
+
+        <!-- Libraries -->
+        <script type="text/javascript" src="./lib/jquery.lib.js"></script>
+        <script type="text/javascript" src="./lib/jquery.lib.js"></script>
+        <script type="text/javascript" src="./lib/gcm.lib.js"></script>
+
+        <!-- Init GCM -->
+        <script type="text/javascript">
+            $(document).ready(gcm_init);
+        </script>
+    </head>
+
+    <body>
+        <div id="root_pane">
+            <div id="identity_pane">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="name">Character Name</td>
+                            <td id="character_name_value" class="value"></td>
+
+                            <td class="name">Player</td>
+                            <td id="player_name_value" class="value"></td>
+
+                            <td class="name">Tech Level</td>
+                            <td id="character_tech_level_value" class="value"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="physical_features_pane">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="name">Height</td>
+                            <td id="character_height_value" class="value"></td>
+
+                            <td class="name">Weight</td>
+                            <td id="character_weight_value" class="value"></td>
+
+                            <td class="name">Age</td>
+                            <td id="character_age_value" class="value"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="basic_attribute_pane">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="name">Strength</td>
+                            <td id="strength_value" class="value"></td>
+
+                            <td class="name">Health Points</td>
+                            <td id="hp_value" class="value"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Dexterity</td>
+                            <td id="dexterity_value" class="value"></td>
+
+                            <td class="name">Will</td>
+                            <td id="will_value" class="value"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">IQ</td>
+                            <td id="iq_value" class="value"></td>
+
+                            <td class="name">Perception</td>
+                            <td id="perception_value" class="value"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Health</td>
+                            <td id="health_value" class="value"></td>
+
+                            <td class="name">Fatigue Points</td>
+                            <td id="fp_value" class="value"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="cluture_features_pane">
+                <div id="languages_pane">
+                    <h3>Languages</h3>
+
+                    <div id="language_tables_pane">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

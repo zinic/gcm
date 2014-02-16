@@ -1,0 +1,555 @@
+{
+    "name": "Era Guang",
+    "player": "JHop",
+    "tech_level": 9,
+
+    "physical_features": {
+        "gender": "female",
+        "description": "this should be my description",
+
+        "age": {
+            "unit": "years",
+            "shorthand": "",
+            "value": 28
+        },
+        "height": {
+            "unit": "inches",
+            "shorthand": "in",
+            "value": 64
+        },
+        "weight": {
+            "unit": "pounds",
+            "shorthand": "lb",
+            "value": 125
+        },
+
+        "reaction": {
+            "appearance": {
+                "type": "beautiful",
+                "details": "+4 to males, +2 otherwise",
+
+                "reference": {
+                    "name": "Basic Set",
+                    "page": 21
+                }
+            },
+
+            "status": {
+                "type": "average",
+                "details": "",
+
+                "reference": {
+                    "name": "Basic Set",
+                    "page": 28
+                }
+            },
+
+            "reputation": {
+                "type": "none",
+                "details": "",
+
+                "reference": {
+                    "name": "Basic Set",
+                    "page": 28
+                }
+            }
+        }
+    },
+
+    "attributes": {
+        "strength": 13,
+        "dexterity": 12,
+        "iq": 12,
+        "health": 12,
+        "hp": 10,
+        "will": 10,
+        "perception": 9,
+        "fp": 9,
+
+        "basic_speed": 0.25,
+        "basic_move": 0,
+
+        "unarmed_damage": {
+            "thrust": "1d",
+            "swing": "1d"
+        }
+    },
+
+    "culture_features": {
+        "languages": [
+            {
+                "name": "English",
+                "fluency": "accented",
+                "spoken": true,
+                "written": true,
+
+                "reference": {
+                    "name": "Basic Set",
+                    "page": 24
+                }
+            },
+            {
+                "name": "Mandarin Chinese",
+                "fluency": "native",
+                "spoken": true,
+                "written": true,
+
+                "reference": {
+                    "name": "Basic Set",
+                    "page": 24
+                }
+            }
+        ],
+
+        "familiarities": [
+            {
+                "name": "Chinese",
+                "is_native": true,
+
+                "reference": {
+                    "name": "Basic Set",
+                    "page": 23
+                }
+            },
+            {
+                "name": "English",
+                "is_native": true,
+
+                "reference": {
+                    "name": "Basic Set",
+                    "page": 23
+                }
+            }
+        ]
+    },
+
+    "advantages": [
+        {
+            "name": "Fit",
+            "cp_cost": 5,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 55
+            }
+        },
+        {
+            "name": "Military Rank 1",
+            "cp_cost": 5,
+            "details": "E4",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 29
+            }
+        },
+        {
+            "name": "Patron",
+            "cp_cost": 10,
+            "details": "Unincorporated Republic of Alaska Coast Guard",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 72
+            }
+        },
+        {
+            "name": "Naval Training",
+            "cp_cost": 1,
+            "details": "",
+
+            "reference": {
+                "name": "Martial Arts",
+                "page": 50
+            }
+        },
+        {
+            "name": "Combat Reflexes",
+            "cp_cost": 15,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 43
+            }
+        },
+        {
+            "name": "Penetrating Voice",
+            "cp_cost": 1,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 101
+            }
+        },
+        {
+            "name": "Skeleton Tongue",
+            "cp_cost": 10,
+            "details": "Grants Mimicry - See Basic Set pg68",
+
+            "reference": {
+                "name": "Bio-Tech",
+                "page": 176
+            }
+        },
+        {
+            "name": "Disguised Appearance",
+            "cp_cost": 0,
+            "details": "Acquaintances require IQ check to identify character.",
+
+            "reference": {
+                "name": "Bio-Tech",
+                "page": 170
+            }
+        },
+        {
+            "name": "Longevity",
+            "cp_cost": 2,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 66
+            }
+        },
+        {
+            "name": "Altered Height",
+            "cp_cost": 0,
+            "details": "",
+
+            "reference": {
+                "name": "Bio-Tech",
+                "page": 172
+            }
+        },
+        {
+            "name": "No Appendix",
+            "cp_cost": 0,
+            "details": "",
+
+            "reference": {
+                "name": "Bio-Tech",
+                "page": 46
+            }
+        },
+        {
+            "name": "Boosted Heart",
+            "cp_cost": 0,
+            "monetary_cost": 31000.00,
+            "details": "",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 175
+            }
+        },
+        {
+            "name": "Hard to Kill +1",
+            "cp_cost": 0,
+            "details": "Granted by Boosted Heart",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 0
+            }
+        }
+    ],
+
+    "skills": [
+        {
+            "name": "Soldier",
+            "proficiency": 0,
+            "difficulty": "easy",
+            "controlling_attribute": "iq",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 221
+            }
+        },
+        {
+            "name": "Swimming",
+            "proficiency": 0,
+            "difficulty": "easy",
+            "controlling_attribute": "health",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 224
+            }
+        },
+        {
+            "name": "Singing",
+            "proficiency": 1,
+            "difficulty": "easy",
+            "controlling_attribute": "health",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 220
+            }
+        },
+        {
+            "name": "Armory (Small Arms)",
+            "proficiency": 0,
+            "difficulty": "average",
+            "controlling_attribute": "iq",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 178
+            }
+        },
+        {
+            "name": "Chemistry",
+            "proficiency": 0,
+            "difficulty": "hard",
+            "controlling_attribute": "iq",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 183
+            }
+        },
+        {
+            "name": "Engineer (Materials)",
+            "proficiency": 0,
+            "difficulty": "hard",
+            "controlling_attribute": "iq",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 190
+            }
+        },
+        {
+            "name": "Dancing",
+            "proficiency": 0,
+            "difficulty": "easy",
+            "controlling_attribute": "dexterity",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 187
+            }
+        },
+        {
+            "name": "Guns (Gyroc)",
+            "proficiency": 0,
+            "difficulty": "easy",
+            "controlling_attribute": "dexterity",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 198
+            }
+        },
+        {
+            "name": "Guns (LMG)",
+            "proficiency": 1,
+            "difficulty": "easy",
+            "controlling_attribute": "dexterity",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 198
+            }
+        },
+        {
+            "name": "Guns (Pistol)",
+            "proficiency": 0,
+            "difficulty": "easy",
+            "controlling_attribute": "dexterity",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 198
+            }
+        },
+        {
+            "name": "Musical Influence",
+            "proficiency": 0,
+            "difficulty": "hard",
+            "controlling_attribute": "iq",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 210
+            }
+        },
+        {
+            "name": "Detect Lies",
+            "proficiency": 0,
+            "difficulty": "hard",
+            "controlling_attribute": "perception",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 187
+            }
+        },
+        {
+            "name": "Disguise",
+            "proficiency": 0,
+            "difficulty": "average",
+            "controlling_attribute": "iq",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 187
+            }
+        },
+        {
+            "name": "Holdout",
+            "proficiency": 0,
+            "difficulty": "average",
+            "controlling_attribute": "iq",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 200
+            }
+        },
+        {
+            "name": "Diplomacy",
+            "proficiency": 0,
+            "difficulty": "hard",
+            "controlling_attribute": "iq",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 187
+            }
+        }
+    ],
+
+    "disadvantages": [
+        {
+            "name": "Duty",
+            "type": "disadvantage",
+            "cp_return": 15,
+            "details": "Unincorporated Republic of Alaska Coast Guard",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 133
+            }
+        },
+        {
+            "name": "Secret (Serious Embarrassment)",
+            "type": "disadvantage",
+            "cp_return": 5,
+            "details": "Was a mail-order bride.",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 152
+            }
+        },
+        {
+            "name": "Callous",
+            "type": "disadvantage",
+            "cp_return": 15,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 125
+            }
+        },
+        {
+            "name": "Curious",
+            "type": "disadvantage",
+            "cp_return": 5,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 129
+            }
+        },
+        {
+            "name": "Insomnia (Severe)",
+            "type": "disadvantage",
+            "cp_return": 15,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 140
+            }
+        },
+        {
+            "name": "Careful",
+            "type": "quirk",
+            "cp_return": 1,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 163
+            }
+        },
+        {
+            "name": "Alcohol Intolerance",
+            "cp_return": 1,
+            "type": "quirk",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 165
+            }
+        },
+        {
+            "name": "Horrible Hangovers",
+            "cp_return": 1,
+            "type": "quirk",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 165
+            }
+        },
+        {
+            "name": "Amnesia",
+            "cp_return": 10,
+            "type": "disadvantage",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 123
+            }
+        },
+        {
+            "name": "Flashbacks",
+            "cp_return": 5,
+            "type": "disadvantage",
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 136
+            }
+        }
+    ]
+}

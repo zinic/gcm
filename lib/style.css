@@ -1,0 +1,94 @@
+/*
+    Global Classes
+*/
+
+.unit_shorthand {
+    font-weight: bold;
+}
+
+
+/*
+    Character Identity Pane
+*/
+
+#identity_pane {
+    padding: 10px;
+}
+
+#identity_pane .name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#identity_pane > table {
+    border: none;
+    border-collapse: collapse;
+}
+
+#identity_pane > table > tbody > tr > td {
+    padding-left: 15px;
+}
+
+#identity_pane > table > tbody > tr > td.value {
+    padding-left: 5px;
+}
+
+
+/*
+    Character Physical Features Pane
+*/
+
+#physical_features_pane {
+    padding: 10px;
+}
+
+#physical_features_pane .name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#physical_features_pane > table {
+    border: none;
+    border-collapse: collapse;
+}
+
+#physical_features_pane > table > tbody > tr > td {
+    padding-left: 15px;
+}
+
+#physical_features_pane > table > tbody > tr > td.value {
+    padding-left: 5px;
+}
+
+
+/*
+    Character's Basic Attributes Pane
+*/
+
+#basic_attribute_pane {
+    padding: 10px;
+}
+
+#basic_attribute_pane .name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#basic_attribute_pane > table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+#basic_attribute_pane > table > tbody > tr > td {
+}
+
+#basic_attribute_pane > table > tbody > tr > td.value {
+    padding-left: 5px;
+    padding-right: 45px;
+}
+
+
+/*
+    Character's Cluture Features Pane
+*/
+
