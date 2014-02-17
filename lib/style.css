@@ -12,7 +12,7 @@
 */
 
 #identity_pane {
-    padding: 10px;
+    position: absolute;
 }
 
 #identity_pane .name {
@@ -25,7 +25,7 @@
     border-collapse: collapse;
 }
 
-#identity_pane > table > tbody > tr > td {
+#identity_pane > table > tbody > tr > td:not(:first-of-type) {
     padding-left: 15px;
 }
 
@@ -35,11 +35,94 @@
 
 
 /*
+    Culture Features Pane
+*/
+
+#cluture_features_pane {
+    position: absolute;
+    top: 200px;
+}
+
+#language_tables_pane {
+    padding-left: 55px;
+}
+
+#cluture_features_pane .name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#cluture_features_pane .language_details {
+    padding-left: 55px;
+}
+
+#cluture_features_pane .last_language_detail {
+    padding-left: 55px;
+    padding-bottom: 15px;
+}
+
+#language_tables_pane > table {
+    border: none;
+    border-collapse: collapse;
+}
+
+#language_tables_pane > table > tbody > tr > td {
+    padding-left: 15px;
+}
+
+#language_tables_pane > table > tbody > tr > td.value {
+    padding-left: 5px;
+}
+
+#cluture_familiaritiy_tables_pane > table {
+    border: none;
+    border-collapse: collapse;
+}
+
+#cluture_familiaritiy_tables_pane > table > tbody > tr > td {
+    padding-left: 15px;
+}
+
+#cluture_familiaritiy_tables_pane > table > tbody > tr > td.value {
+    padding-left: 5px;
+}
+
+
+/*
+    CP Summary Pane
+*/
+
+#cp_summary_pane {
+    position: absolute;
+    top: 80px;
+}
+
+#cp_summary_pane .name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#cp_summary_pane > table {
+    border: none;
+    border-collapse: collapse;
+}
+
+#cp_summary_pane > table > tbody > tr > td:not(:first-of-type) {
+    padding-left: 15px;
+}
+
+#cp_summary_pane > table > tbody > tr > td.value {
+    padding-left: 5px;
+}
+
+
+/*
     Character Physical Features Pane
 */
 
 #physical_features_pane {
-    padding: 10px;
+    position: absolute;
+    top: 40px;
 }
 
 #physical_features_pane .name {
@@ -52,7 +135,7 @@
     border-collapse: collapse;
 }
 
-#physical_features_pane > table > tbody > tr > td {
+#physical_features_pane > table > tbody > tr > td:not(:first-of-type) {
     padding-left: 15px;
 }
 
@@ -66,7 +149,8 @@
 */
 
 #basic_attribute_pane {
-    padding: 10px;
+    position: absolute;
+    top: 1000px;
 }
 
 #basic_attribute_pane .name {
@@ -89,6 +173,85 @@
 
 
 /*
-    Character's Cluture Features Pane
+    Character's Advantages Pane
 */
+
+#advantages_pane {
+    position: absolute;
+    top: 1000px;
+}
+
+#advantages_pane .name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#advantages_pane > table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+#advantages_pane > table > tbody > tr > td {
+}
+
+#advantages_pane > table > tbody > tr > td.value {
+    padding-left: 5px;
+    padding-right: 45px;
+}
+
+
+/*
+    Character's Advantages Pane
+*/
+
+#skills_pane {
+    position: absolute;
+    top: 1000px;
+}
+
+#skills_pane .name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#skills_pane > table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+#skills_pane > table > tbody > tr > td {
+}
+
+#skills_pane > table > tbody > tr > td.value {
+    padding-left: 5px;
+    padding-right: 45px;
+}
+
+
+/*
+    Character's Advantages Pane
+*/
+
+#disadvantages_pane {
+    position: absolute;
+    top: 1000px;
+}
+
+#disadvantages_pane .name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#disadvantages_pane > table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+#disadvantages_pane > table > tbody > tr > td {
+}
+
+#disadvantages_pane > table > tbody > tr > td.value {
+    padding-left: 5px;
+    padding-right: 45px;
+}
 

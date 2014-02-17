@@ -2,6 +2,8 @@
     "name": "Era Guang",
     "player": "JHop",
     "tech_level": 9,
+    "initial_cp": 110,
+    "granted_cp": 25,
 
     "physical_features": {
         "gender": "female",
@@ -23,9 +25,11 @@
             "value": 125
         },
 
-        "reaction": {
-            "appearance": {
-                "type": "beautiful",
+        "reaction_modifiers": [
+            {
+                "type": "appearance",
+                "level": "beautiful",
+                "cp_cost": 12,
                 "details": "+4 to males, +2 otherwise",
 
                 "reference": {
@@ -33,9 +37,10 @@
                     "page": 21
                 }
             },
-
-            "status": {
-                "type": "average",
+            {
+                "type": "status",
+                "level": "average",
+                "cp_cost": 0,
                 "details": "",
 
                 "reference": {
@@ -43,9 +48,10 @@
                     "page": 28
                 }
             },
-
-            "reputation": {
+            {
+                "type": "reputation",
                 "type": "none",
+                "cp_cost": 0,
                 "details": "",
 
                 "reference": {
@@ -53,7 +59,7 @@
                     "page": 28
                 }
             }
-        }
+        ]
     },
 
     "attributes": {
@@ -78,6 +84,7 @@
     "culture_features": {
         "languages": [
             {
+                "type": "language",
                 "name": "English",
                 "fluency": "accented",
                 "spoken": true,
@@ -89,6 +96,7 @@
                 }
             },
             {
+                "type": "language",
                 "name": "Mandarin Chinese",
                 "fluency": "native",
                 "spoken": true,
@@ -103,6 +111,7 @@
 
         "familiarities": [
             {
+                "type": "familiarity",
                 "name": "Chinese",
                 "native": true,
 
@@ -112,6 +121,7 @@
                 }
             },
             {
+                "type": "familiarity",
                 "name": "English",
                 "native": true,
 
@@ -191,6 +201,32 @@
         },
         {
             "name": "Penetrating Voice",
+            "type": "advantage",
+
+            "cp_cost": 1,
+            "monetary_cost": 0.00,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 101
+            }
+        },
+        {
+            "name": "Voice",
+            "type": "advantage",
+
+            "cp_cost": 10,
+            "monetary_cost": 0.00,
+            "details": "",
+
+            "reference": {
+                "name": "Basic Set",
+                "page": 97
+            }
+        },
+        {
+            "name": "Sanitized Metabolism",
             "type": "advantage",
 
             "cp_cost": 1,
@@ -299,6 +335,7 @@
         {
             "name": "Soldier",
             "type": "skill",
+            "disabled": false,
 
             "proficiency": 0,
             "difficulty": "easy",
@@ -313,6 +350,7 @@
         {
             "name": "Swimming",
             "type": "skill",
+            "disabled": false,
 
             "proficiency": 0,
             "difficulty": "easy",
@@ -327,6 +365,7 @@
         {
             "name": "Singing",
             "type": "skill",
+            "disabled": false,
 
             "proficiency": 1,
             "difficulty": "easy",
@@ -341,6 +380,7 @@
         {
             "name": "Armory (Small Arms)",
             "type": "skill",
+            "disabled": false,
 
             "proficiency": 0,
             "difficulty": "average",
@@ -355,6 +395,7 @@
         {
             "name": "Chemistry",
             "type": "skill",
+            "disabled": true,
 
             "proficiency": 0,
             "difficulty": "hard",
@@ -369,6 +410,7 @@
         {
             "name": "Engineer (Materials)",
             "type": "skill",
+            "disabled": true,
 
             "proficiency": 0,
             "difficulty": "hard",
@@ -383,6 +425,7 @@
         {
             "name": "Dancing",
             "type": "skill",
+            "disabled": false,
 
             "proficiency": 0,
             "difficulty": "easy",
@@ -397,6 +440,7 @@
         {
             "name": "Guns (Gyroc)",
             "type": "skill",
+            "disabled": false,
 
             "proficiency": 0,
             "difficulty": "easy",
@@ -411,6 +455,7 @@
         {
             "name": "Guns (LMG)",
             "type": "skill",
+            "disabled": false,
 
             "proficiency": 1,
             "difficulty": "easy",
@@ -425,6 +470,7 @@
         {
             "name": "Guns (Pistol)",
             "type": "skill",
+            "disabled": false,
 
             "proficiency": 0,
             "difficulty": "easy",
@@ -439,6 +485,7 @@
         {
             "name": "Musical Influence",
             "type": "skill",
+            "disabled": true,
 
             "proficiency": 0,
             "difficulty": "hard",
@@ -453,8 +500,9 @@
         {
             "name": "Detect Lies",
             "type": "skill",
+            "disabled": false,
 
-            "proficiency": 0,
+            "proficiency": -2,
             "difficulty": "hard",
             "controlling_attribute": "perception",
             "details": "",
@@ -467,8 +515,9 @@
         {
             "name": "Disguise",
             "type": "skill",
+            "disabled": false,
 
-            "proficiency": 0,
+            "proficiency": -1,
             "difficulty": "average",
             "controlling_attribute": "iq",
             "details": "",
@@ -481,8 +530,9 @@
         {
             "name": "Holdout",
             "type": "skill",
+            "disabled": false,
 
-            "proficiency": 0,
+            "proficiency": -1,
             "difficulty": "average",
             "controlling_attribute": "iq",
             "details": "",
@@ -495,6 +545,7 @@
         {
             "name": "Diplomacy",
             "type": "skill",
+            "disabled": false,
 
             "proficiency": 0,
             "difficulty": "hard",
@@ -512,6 +563,7 @@
         {
             "name": "Duty",
             "type": "disadvantage",
+            "disabled": false,
 
             "cp_return": 15,
             "details": "Unincorporated Republic of Alaska Coast Guard",
@@ -524,6 +576,7 @@
         {
             "name": "Secret (Serious Embarrassment)",
             "type": "disadvantage",
+            "disabled": false,
 
             "cp_return": 5,
             "details": "Was a mail-order bride.",
@@ -536,8 +589,9 @@
         {
             "name": "Callous",
             "type": "disadvantage",
+            "disabled": false,
 
-            "cp_return": 15,
+            "cp_return": 5,
             "details": "",
 
             "reference": {
@@ -548,6 +602,7 @@
         {
             "name": "Curious",
             "type": "disadvantage",
+            "disabled": false,
 
             "cp_return": 5,
             "details": "",
@@ -560,6 +615,7 @@
         {
             "name": "Insomnia (Severe)",
             "type": "disadvantage",
+            "disabled": false,
 
             "cp_return": 15,
             "details": "",
@@ -572,6 +628,7 @@
         {
             "name": "Careful",
             "type": "quirk",
+            "disabled": false,
 
             "cp_return": 1,
             "details": "",
@@ -584,6 +641,7 @@
         {
             "name": "Alcohol Intolerance",
             "type": "quirk",
+            "disabled": false,
 
             "cp_return": 1,
             "details": "",
@@ -596,6 +654,7 @@
         {
             "name": "Horrible Hangovers",
             "type": "quirk",
+            "disabled": false,
 
             "cp_return": 1,
             "details": "",
@@ -608,6 +667,7 @@
         {
             "name": "Amnesia",
             "type": "disadvantage",
+            "disabled": false,
 
             "cp_return": 10,
             "details": "",
@@ -620,6 +680,7 @@
         {
             "name": "Flashbacks",
             "type": "disadvantage",
+            "disabled": false,
 
             "cp_return": 5,
             "details": "",
