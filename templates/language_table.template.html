@@ -1,42 +1,41 @@
-<tr>
-    <td class="name">${name}</td>
-</tr>
+<span>Language: ${name}</span>
 
-<tr>
-    <td class="language_details">
-        <table>
-            <tbody>
-                <tr>
-                    <td class="name">Fluency</td>
-                    <td class="value">${fluency}</td>
-                </tr>
-            </tbody>
-        </table>
-    </td>
-</tr>
+<table class="language_table">
+    <tbody>
+        <tr>
+            <td>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="name">Fluency</td>
+                            <td class="value">${fluency}</td>
+                        </tr>
 
-<tr>
-    <td class="language_details">
-        <table>
-            <tbody>
-                <tr>
-                    <td class="name">Spoken</td>
-                    <td class="value">${spoken}</td>
-                </tr>
-            </tbody>
-        </table>
-    </td>
-</tr>
+                        <tr>
+                            <td class="name">Spoken</td>
+                            <td class="value">${spoken}</td>
+                        </tr>
 
-<tr>
-    <td class="language_details last_language_detail">
-        <table>
-            <tbody>
-                <tr>
-                    <td class="name">Written</td>
-                    <td class="value">${written}</td>
-                </tr>
-            </tbody>
-        </table>
-    </td>
-</tr>
+                        <tr>
+                            <td class="name">Written</td>
+                            <td class="value">${written}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="name">Reference</td>
+                            <td class="value">${reference.name} pg${reference.page}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>

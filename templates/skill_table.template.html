@@ -1,13 +1,8 @@
+<span>Skill: ${name}</span>
+
 <table class="skill_table">
     <tbody>
         <tr>
-            <td class="name">Skill</td>
-            <td class="value">${name}</td>
-        </tr>
-
-        <tr>
-            <td class="empty" />
-
             <td>
                 <table>
                     <tbody>
@@ -34,27 +29,19 @@
                         <tr>
                             <td class="name">Details</td>
                             <td class="value">${details}</td>
-                        </tr
+                        </tr>
                     </tbody>
                 </table>
             </td>
         </tr>
 
         <tr>
-            <td class="empty" />
-
             <td>
                 <table>
                     <tbody>
                         <tr>
                             <td class="name">Reference</td>
-                            <td class="empty" />
-                        </tr>
-
-                        <tr>
-                            <td class="empty" />
-                            <td class="name">${reference.name}</td>
-                            <td class="name">${reference.page}</td>
+                            <td class="value">${reference.name} pg${reference.page}</td>
                         </tr>
                     </tbody>
                 </table>

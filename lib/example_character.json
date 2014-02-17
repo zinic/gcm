@@ -1245,7 +1245,7 @@
             "type": "ammunition",
             "tech_level": 9,
             "amount": 2,
-            "legality_class": 3,
+            "legality_class": 5,
             "monetary_cost": 10.00,
 
             "weight": {

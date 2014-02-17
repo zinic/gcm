@@ -2,8 +2,73 @@
     Global Classes
 */
 
+/*
+.value {
+    background-color: #bbbbff;
+}
+*/
+
+.side_by_side_stat_table_pane > table {
+    border: none;
+    border-collapse: collapse;
+}
+
+.side_by_side_stat_table_pane > table > tbody > tr > td:not(:first-of-type) {
+    padding-left: 15px;
+}
+
+.side_by_side_stat_table_pane > table > tbody > tr > td.name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.side_by_side_stat_table_pane > table > tbody > tr > td.value {
+    margin-left: 5px;
+}
+
+.feature_table_pane {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.feature_table_pane span {
+    font-size: 18pt;
+    padding-top: 15px;
+}
+
+.feature_table_pane table {
+    border-collapse: collapse;
+
+    padding-bottom: 15px;
+    margin-left: 50px;
+}
+
+.feature_table_pane table > tbody > tr > td.name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.feature_table_pane table > tbody > tr > td.value {
+    padding-left: 15px;
+}
+
 .unit_shorthand {
     font-weight: bold;
+}
+
+span {
+    display: inline-block;
+}
+
+span.heading {
+    width: 100%;
+
+    font-size: 18pt;
+    font-weight: bold;
+
+    background-color: #eeeeee;
+
+    padding-left: 4px;
 }
 
 
@@ -11,26 +76,12 @@
     Character Identity Pane
 */
 
-#identity_pane {
+#basic_info_pane {
     position: absolute;
-}
 
-#identity_pane .name {
-    font-weight: bold;
-    font-size: 14pt;
-}
+    top: 0px;
 
-#identity_pane > table {
-    border: none;
-    border-collapse: collapse;
-}
-
-#identity_pane > table > tbody > tr > td:not(:first-of-type) {
-    padding-left: 15px;
-}
-
-#identity_pane > table > tbody > tr > td.value {
-    padding-left: 5px;
+    width: 600px;
 }
 
 
@@ -38,55 +89,16 @@
     Culture Features Pane
 */
 
-#cluture_features_pane {
+#culture_features_pane {
     position: absolute;
-    top: 370px;
+
+    top: 120px;
+    left: 450px;
 }
 
-#language_tables_pane {
-    padding-left: 55px;
+#culture_familiarities_pane {
+    margin-top: 20px;
 }
-
-#cluture_features_pane .name {
-    font-weight: bold;
-    font-size: 14pt;
-}
-
-#cluture_features_pane .language_details {
-    padding-left: 55px;
-}
-
-#cluture_features_pane .last_language_detail {
-    padding-left: 55px;
-    padding-bottom: 15px;
-}
-
-#language_tables_pane > table {
-    border: none;
-    border-collapse: collapse;
-}
-
-#language_tables_pane > table > tbody > tr > td {
-    padding-left: 15px;
-}
-
-#language_tables_pane > table > tbody > tr > td.value {
-    padding-left: 5px;
-}
-
-#cluture_familiaritiy_tables_pane > table {
-    border: none;
-    border-collapse: collapse;
-}
-
-#cluture_familiaritiy_tables_pane > table > tbody > tr > td {
-    padding-left: 15px;
-}
-
-#cluture_familiaritiy_tables_pane > table > tbody > tr > td.value {
-    padding-left: 5px;
-}
-
 
 /*
     CP Summary Pane
@@ -94,53 +106,11 @@
 
 #cp_summary_pane {
     position: absolute;
-    top: 80px;
-}
 
-#cp_summary_pane .name {
-    font-weight: bold;
-    font-size: 14pt;
-}
+    top: 0px;
+    left: 650px;
 
-#cp_summary_pane > table {
-    border: none;
-    border-collapse: collapse;
-}
-
-#cp_summary_pane > table > tbody > tr > td:not(:first-of-type) {
-    padding-left: 15px;
-}
-
-#cp_summary_pane > table > tbody > tr > td.value {
-    padding-left: 5px;
-}
-
-
-/*
-    Character Physical Features Pane
-*/
-
-#physical_features_pane {
-    position: absolute;
-    top: 40px;
-}
-
-#physical_features_pane .name {
-    font-weight: bold;
-    font-size: 14pt;
-}
-
-#physical_features_pane > table {
-    border: none;
-    border-collapse: collapse;
-}
-
-#physical_features_pane > table > tbody > tr > td:not(:first-of-type) {
-    padding-left: 15px;
-}
-
-#physical_features_pane > table > tbody > tr > td.value {
-    padding-left: 5px;
+    width: 900px;
 }
 
 
@@ -149,28 +119,13 @@
 */
 
 #basic_attribute_pane {
-    position: absolute;
-    top: 200px;
-}
-
-#basic_attribute_pane .name {
-    font-weight: bold;
-    font-size: 14pt;
-}
-
-#basic_attribute_pane > table {
-    border: solid 1px black;
-    border-collapse: collapse;
-}
-
-#basic_attribute_pane > table > tbody > tr > td {
-}
-
-#basic_attribute_pane > table > tbody > tr > td.value {
     padding-left: 5px;
-    padding-right: 45px;
-}
 
+    position: absolute;
+    top: 120px;
+
+    width: 400px;
+}
 
 /*
     Character's Advantages Pane
@@ -178,80 +133,33 @@
 
 #advantages_pane {
     position: absolute;
-    top: 1000px;
-}
+    top: 750px;
+    left: 550px;
 
-#advantages_pane .name {
-    font-weight: bold;
-    font-size: 14pt;
-}
-
-#advantages_pane > table {
-    border: solid 1px black;
-    border-collapse: collapse;
-}
-
-#advantages_pane > table > tbody > tr > td {
-}
-
-#advantages_pane > table > tbody > tr > td.value {
-    padding-left: 5px;
-    padding-right: 45px;
+    width: 500px;
 }
 
 
 /*
-    Character's Advantages Pane
+    Character's Skills Pane
 */
 
 #skills_pane {
     position: absolute;
-    top: 1000px;
-}
+    top: 750px;
 
-#skills_pane .name {
-    font-weight: bold;
-    font-size: 14pt;
-}
-
-#skills_pane > table {
-    border: solid 1px black;
-    border-collapse: collapse;
-}
-
-#skills_pane > table > tbody > tr > td {
-}
-
-#skills_pane > table > tbody > tr > td.value {
-    padding-left: 5px;
-    padding-right: 45px;
+    width: 500px;
 }
 
 
 /*
-    Character's Advantages Pane
+    Character's Disadvantages Pane
 */
 
 #disadvantages_pane {
     position: absolute;
-    top: 1000px;
-}
+    top: 750px;
+    left: 1100px;
 
-#disadvantages_pane .name {
-    font-weight: bold;
-    font-size: 14pt;
+    width: 550px;
 }
-
-#disadvantages_pane > table {
-    border: solid 1px black;
-    border-collapse: collapse;
-}
-
-#disadvantages_pane > table > tbody > tr > td {
-}
-
-#disadvantages_pane > table > tbody > tr > td.value {
-    padding-left: 5px;
-    padding-right: 45px;
-}
-

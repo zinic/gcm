@@ -18,68 +18,74 @@
 
     <body>
         <div id="root_pane">
-            <div id="identity_pane">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="name">Character Name</td>
-                            <td id="character_name_value" class="value"></td>
+            <div id="basic_info_pane">
+                <span class="heading">Basic Info</span>
 
-                            <td class="name">Player</td>
-                            <td id="player_name_value" class="value"></td>
+                <div id="identity_table_pane" class="side_by_side_stat_table_pane">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="name">Character Name</td>
+                                <td id="character_name_value" class="value"></td>
 
-                            <td class="name">Tech Level</td>
-                            <td id="character_tech_level_value" class="value"></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                                <td class="name">Player</td>
+                                <td id="player_name_value" class="value"></td>
 
-            <div id="physical_features_pane">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="name">Height</td>
-                            <td id="character_height_value" class="value"></td>
+                                <td class="name">Tech Level</td>
+                                <td id="character_tech_level_value" class="value"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-                            <td class="name">Weight</td>
-                            <td id="character_weight_value" class="value"></td>
+                <div id="physical_features_table_pane" class="side_by_side_stat_table_pane">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="name">Height</td>
+                                <td id="character_height_value" class="value"></td>
 
-                            <td class="name">Age</td>
-                            <td id="character_age_value" class="value"></td>
-                        </tr>
-                    </tbody>
-                </table>
+                                <td class="name">Weight</td>
+                                <td id="character_weight_value" class="value"></td>
+
+                                <td class="name">Age</td>
+                                <td id="character_age_value" class="value"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
 
             <div id="cp_summary_pane">
-                <h3>CP Summary</h3>
+                <span class="heading">CP Summary</span>
 
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="name">Starting</td>
-                            <td id="initial_cp_value" class="value"></td>
+                <div id="cp_summary_table_pane" class="side_by_side_stat_table_pane">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="name">Starting</td>
+                                <td id="initial_cp_value" class="value"></td>
 
-                            <td class="name">Bonus</td>
-                            <td id="bonus_cp_value" class="value"></td>
+                                <td class="name">Bonus</td>
+                                <td id="bonus_cp_value" class="value"></td>
 
-                            <td class="name">Disadvantages and Quirks</td>
-                            <td id="returned_cp_value" class="value"></td>
+                                <td class="name">Disadvantages and Quirks</td>
+                                <td id="returned_cp_value" class="value"></td>
 
-                            <td class="name">Spent</td>
-                            <td id="spent_cp_value" class="value"></td>
+                                <td class="name">Spent</td>
+                                <td id="spent_cp_value" class="value"></td>
 
-                            <td class="name">Available</td>
-                            <td id="available_cp_value" class="value"></td>
-                        </tr>
-                    </tbody>
-                </table>
+                                <td class="name">Available</td>
+                                <td id="available_cp_value" class="value"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
             <div id="basic_attribute_pane">
-                <h3>Basic Attributes</h3>
+                <span class="heading">Basic Attributes</span>
 
                 <table>
                     <tbody>
@@ -118,44 +124,40 @@
                 </table>
             </div>
 
-            <div id="cluture_features_pane">
+            <div id="culture_features_pane">
                 <div id="languages_pane">
-                    <h3>Languages</h3>
+                    <span class="heading">Languages</span>
 
-                    <div id="language_tables_pane">
-                        <table>
-                            <tbody id="language_tables_tbody">
-                            <tbody>
-                        </table>
+                    <div id="language_tables_pane" class="feature_table_pane">
                     </div>
                 </div>
 
-                <div id="cluture_familiarities_pane">
-                    <h3>Cluture Familiarities</h3>
+                <div id="culture_familiarities_pane">
+                    <span class="heading">Culture Familiarities</span>
 
-                    <div id="cluture_familiaritiy_tables_pane">
+                    <div id="culture_familiaritiy_tables_pane" class="feature_table_pane">
                     </div>
                 </div>
             </div>
 
             <div id="advantages_pane">
-                <h3>Advantages</h3>
+                <span class="heading">Advantages and Perks</span>
 
-                <div id="advantage_tables_pane">
+                <div id="advantage_tables_pane" class="feature_table_pane">
                 </div>
             </div>
 
             <div id="skills_pane">
-                <h3>Skills</h3>
+                <span class="heading">Skills and Techniques</span>
 
-                <div id="skill_tables_pane">
+                <div id="skill_tables_pane" class="feature_table_pane">
                 </div>
             </div>
 
             <div id="disadvantages_pane">
-                <h3>Disadvantages</h3>
+                <span class="heading">Disadvantages and Quirks</span>
 
-                <div id="disadvantage_tables_pane">
+                <div id="disadvantage_tables_pane" class="feature_table_pane">
                 </div>
             </div>
         </div>
