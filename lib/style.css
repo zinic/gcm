@@ -94,10 +94,19 @@ span.heading {
 
     top: 120px;
     left: 450px;
+
+    width: 400px;
 }
 
 #culture_familiarities_pane {
     margin-top: 20px;
+}
+
+#reaction_modifiers_pane {
+    position: absolute;
+
+    top: 120px;
+    left: 900px;
 }
 
 /*

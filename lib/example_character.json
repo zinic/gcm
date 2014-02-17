@@ -27,8 +27,8 @@
 
         "reaction_modifiers": [
             {
-                "type": "appearance",
-                "level": "beautiful",
+                "name": "Appearance",
+                "level": "Beautiful",
                 "cp_cost": 12,
                 "details": "+4 to males, +2 otherwise",
 
@@ -38,8 +38,8 @@
                 }
             },
             {
-                "type": "status",
-                "level": "average",
+                "name": "Status",
+                "level": "Average",
                 "cp_cost": 0,
                 "details": "",
 
@@ -49,8 +49,8 @@
                 }
             },
             {
-                "type": "reputation",
-                "type": "none",
+                "name": "Reputation",
+                "level": "None",
                 "cp_cost": 0,
                 "details": "",
 
