@@ -690,5 +690,672 @@
                 "page": 136
             }
         }
+    ],
+
+    "inventory": [
+    ],
+
+    "possessions": [
+        {
+            "name": "Light Support Weapon",
+            "type": "weapon",
+            "tech_level": 9,
+            "amount": 1,
+
+            "legality_class": 1,
+            "monetary_cost": 0,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 10
+            },
+
+            "additional_properties": {
+                "type": "ranged",
+                "class": "gun",
+
+                "accuracy": 4,
+                "rate_of_fire": "15",
+                "shot_capacity": "200",
+                "reload_duration": 5,
+                "strength": "9B",
+                "two_handed": true,
+                "unready_after_shot": false,
+                "bulk": -5,
+                "recoil": 2,
+                "ammunition_type": "7mmCL",
+
+                "damage": [
+                    {
+                        "type": [ "pi" ],
+                        "armor_divisor": 0,
+                        "roll": "6d"
+                    }
+                ],
+
+                "ranges": [
+                    {
+                        "type": "half_damage",
+                        "unit": "meters",
+                        "value": 700
+                    },
+                    {
+                        "type": "maximum",
+                        "unit": "meters",
+                        "value": 4000
+                    }
+                ]
+            },
+
+            "details": "Coast Guard issued, additional rules apply.",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 139
+            }
+        },
+        {
+            "name": "Under-Barrel Gyroc",
+            "type": "weapon",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 2,
+            "monetary_cost": 0,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 1
+            },
+
+            "additional_properties": {
+                "type": "ranged",
+                "class": "gun",
+
+                "accuracy": 2,
+                "rate_of_fire": "3",
+                "shot_capacity": "6",
+                "reload_duration": 3,
+                "strength": "6",
+                "two_handed": true,
+                "unready_after_shot": false,
+                "bulk": null,
+                "recoil": 1,
+                "ammunition_type": "15mm",
+
+                "damage": [
+                    {
+                        "type": [ "pi++" ],
+                        "armor_divisor": 0,
+                        "roll": "6d"
+                    }
+                ],
+
+                "ranges": [
+                    {
+                        "type": "maximum",
+                        "unit": "meters",
+                        "value": 1900
+                    }
+                ]
+            },
+
+            "details": "Coast Guard issued, additional rules apply.",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 146
+            }
+        },
+        {
+            "name": "Magnum Pistol",
+            "type": "weapon",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 3,
+            "monetary_cost": 870.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 1
+            },
+
+            "additional_properties": {
+                "type": "ranged",
+                "class": "gun",
+
+                "accuracy": 2,
+                "rate_of_fire": "3",
+                "shot_capacity": "9+1",
+                "reload_duration": 3,
+                "strength": "9",
+                "two_handed": false,
+                "unready_after_shot": false,
+                "bulk": -2,
+                "recoil": 4,
+                "ammunition_type": "15mm",
+
+                "damage": [
+                    {
+                        "type": [ "pi++" ],
+                        "armor_divisor": 0,
+                        "roll": "4d+1"
+                    }
+                ],
+
+                "ranges": [
+                    {
+                        "type": "half_damage",
+                        "unit": "meters",
+                        "value": 235
+                    },
+                    {
+                        "type": "maximum",
+                        "unit": "meters",
+                        "value": 2600
+                    }
+                ]
+            },
+
+            "details": "",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 138
+            }
+        },
+        {
+            "name": "Electrolaser Pistol",
+            "type": "weapon",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 4,
+            "monetary_cost": 1800.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 1
+            },
+
+            "additional_properties": {
+                "type": "ranged",
+                "class": "beam",
+
+                "accuracy": 4,
+                "rate_of_fire": "3",
+                "shot_capacity": "36",
+                "reload_duration": 3,
+                "strength": "4",
+                "two_handed": false,
+                "unready_after_shot": false,
+                "bulk": -2,
+                "recoil": 1,
+                "ammunition_type": "C-Cell Power Source",
+
+                "damage": [
+                    {
+                        "type": [ "aff" ],
+                        "armor_divisor": 2,
+                        "roll": "HT-4"
+                    },
+                    {
+                        "type": [ "pi++" ],
+                        "armor_divisor": 0,
+                        "roll": "4d+1"
+                    }
+                ],
+
+                "ranges": [
+                    {
+                        "type": "half_damage",
+                        "unit": "meters",
+                        "value": 40
+                    },
+                    {
+                        "type": "maximum",
+                        "unit": "meters",
+                        "value": 80
+                    }
+                ]
+            },
+
+            "details": "",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 121
+            }
+        },
+        {
+            "name": "Reflex Tactical Vest",
+            "type": "armor",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 4,
+            "monetary_cost": 900.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 9
+            },
+
+            "additional_properties": {
+                "type": "vest",
+                "class": "reflex",
+
+                "damage_reduction": [
+                    {
+                        "value": "18",
+                        "applies_to": [
+                            "cut",
+                            "pi"
+                        ]
+                    },
+                    {
+                        "value": "7",
+                        "applies_to": [
+                            "all"
+                        ]
+                    }
+                ],
+
+                "covers": [
+                    "torso",
+                    "groin"
+                ]
+            },
+
+            "details": "",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 173
+            }
+        },
+        {
+            "name": "Reflex Suit",
+            "type": "armor",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 4,
+            "monetary_cost": 1200.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 8
+            },
+
+            "additional_properties": {
+                "type": "vest",
+                "class": "reflex",
+
+                "damage_reduction": [
+                    {
+                        "value": "12",
+                        "applies_to": [
+                            "cut",
+                            "pi"
+                        ]
+                    },
+                    {
+                        "value": "4",
+                        "applies_to": [
+                            "all"
+                        ]
+                    }
+                ],
+
+                "covers": [
+                    "torso",
+                    "legs",
+                    "head",
+                    "groin"
+                ]
+            },
+
+            "details": "",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 173
+            }
+        },
+        {
+            "name": "Reflex Gloves",
+            "type": "armor",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 4,
+            "monetary_cost": 35.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": null
+            },
+
+            "additional_properties": {
+                "type": "gloves",
+                "class": "reflex",
+
+                "damage_reduction": [
+                    {
+                        "value": "6",
+                        "applies_to": [
+                            "cut",
+                            "pi"
+                        ]
+                    },
+                    {
+                        "value": "2",
+                        "applies_to": [
+                            "all"
+                        ]
+                    }
+                ],
+
+                "covers": [
+                    "torso",
+                    "legs",
+                    "head",
+                    "groin"
+                ]
+            },
+
+            "details": "",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 173
+            }
+        },
+        {
+            "name": "Assault Boots",
+            "type": "armor",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 4,
+            "monetary_cost": 15.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 3
+            },
+
+            "additional_properties": {
+                "type": "gloves",
+                "class": "reflex",
+
+                "damage_reduction": [
+                    {
+                        "value": "12",
+                        "applies_to": [
+                            "above"
+                        ]
+                    },
+                    {
+                        "value": "6",
+                        "applies_to": [
+                            "below"
+                        ]
+                    }
+                ],
+
+                "covers": [
+                    "feet"
+                ]
+            },
+
+            "details": "",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 173
+            }
+        },
+        {
+            "name": "Light Infantry Helmet",
+            "type": "armor",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 4,
+            "monetary_cost": 0.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 3
+            },
+
+            "additional_properties": {
+                "type": "helmet",
+                "class": "rigid",
+
+                "damage_reduction": [
+                    {
+                        "value": "18",
+                        "applies_to": [
+                            "all"
+                        ]
+                    }
+                ],
+
+                "covers": [
+                    "head"
+                ]
+            },
+
+            "details": "Coast Guard issued, additional rules apply.",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 176
+            }
+        },
+        {
+            "name": "7mmCL",
+            "type": "ammunition",
+            "tech_level": 9,
+            "amount": 400,
+            "legality_class": 3,
+            "monetary_cost": 0.54,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 0.027
+            },
+
+            "additional_properties": null,
+
+            "details": "Coast Guard issued, additional rules apply.",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 140
+            }
+        },
+        {
+            "name": "Gyro-stabilized Weapon Harness",
+            "type": "weapon_harness",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 3,
+            "monetary_cost": 31000.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 15,
+            },
+
+            "additional_properties": {
+                "type": "weapon_binding",
+                "built_for": "Light Support Weapon"
+            },
+
+            "details": "Cancels out move penalty. Automatically braces weapon.",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 150
+            }
+        },
+        {
+            "name": "Hyperspectral Visor",
+            "type": "visor",
+            "tech_level": 9,
+            "amount": 1,
+            "legality_class": 3,
+            "monetary_cost": 2000.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6,
+            },
+
+            "additional_properties": null,
+
+            "details": "Grants user a HUD for a +1 to all weapon checks. Grants user a +3 on vision checks.",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 62
+            }
+        },
+        {
+            "name": "15mmCLP",
+            "type": "ammunition",
+            "tech_level": 9,
+            "amount": 30,
+            "legality_class": 3,
+            "monetary_cost": 1.2,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 0.06
+            },
+
+            "additional_properties": null,
+
+            "details": "",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 140
+            }
+        },
+        {
+            "name": "C-Cell Power Source",
+            "type": "ammunition",
+            "tech_level": 9,
+            "amount": 2,
+            "legality_class": 3,
+            "monetary_cost": 10.00,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+
+            "additional_properties": null,
+
+            "details": "",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 140
+            }
+        },
+        {
+            "name": "15mm Gyroc",
+            "type": "ammunition",
+            "tech_level": 9,
+            "amount": 6,
+            "legality_class": 3,
+            "monetary_cost": 5,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1
+            },
+
+            "additional_properties": {
+                "type": "warhead",
+                "name": "Armor-Piercing Hardcore Explosive",
+                "legality_class": 1,
+                "cost_multiplier": 4,
+
+                "damage": [
+                    {
+                        "type": [ "pi" ],
+                        "armor_divisor": 2,
+                        "roll": "6d"
+                    },
+                    {
+                        "type": [ "cr", "ex" ],
+                        "armor_divisor": 0,
+                        "roll": "1d-2"
+                    },
+                    {
+                        "type": [ "frag", "cut" ],
+                        "armor_divisor": 0,
+                        "roll": "1d2-1"
+                    }
+                ],
+
+                "reference": {
+                    "name": "Ultra-Tech",
+                    "page": 152
+                }
+            },
+
+            "details": "Coast Guard issued, additional rules apply.",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 146
+            }
+        },
+        {
+            "name": "15mm Gyroc",
+            "type": "ammunition",
+            "tech_level": 9,
+            "amount": 6,
+            "legality_class": 3,
+            "monetary_cost": 5,
+
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1
+            },
+
+            "additional_properties": {
+                "type": "warhead",
+                "name": "High Explosive Concussion",
+                "legality_class": 2,
+                "cost_multiplier": 4,
+
+                "damage": [
+                    {
+                        "type": [ "pi" ],
+                        "armor_divisor": 0.5,
+                        "roll": "6d"
+                    },
+                    {
+                        "type": [ "cr", "ex" ],
+                        "armor_divisor": 0,
+                        "roll": "2d"
+                    }
+                ],
+
+                "reference": {
+                    "name": "Ultra-Tech",
+                    "page": 153
+                }
+            },
+
+            "details": "Coast Guard issued, additional rules apply.",
+
+            "reference": {
+                "name": "Ultra-Tech",
+                "page": 146
+            }
+        }
     ]
 }
