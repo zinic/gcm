@@ -3,7 +3,7 @@
     "player": "JHop",
     "tech_level": 9,
     "initial_cp": 110,
-    "granted_cp": 25,
+    "bonus_cp": 25,
 
     "physical_features": {
         "gender": "female",

@@ -40,7 +40,7 @@
 
 #cluture_features_pane {
     position: absolute;
-    top: 200px;
+    top: 370px;
 }
 
 #language_tables_pane {
@@ -150,7 +150,7 @@
 
 #basic_attribute_pane {
     position: absolute;
-    top: 1000px;
+    top: 200px;
 }
 
 #basic_attribute_pane .name {
