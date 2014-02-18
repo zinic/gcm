@@ -48,7 +48,7 @@
 }
 
 .editableform-loading {
-    background: url('./images/jquery-ui/loading.gif') center center no-repeat;
+    background: url('./images/loading.gif') center center no-repeat;
     height: 25px;
     width: auto;
     min-width: 25px;
@@ -116,7 +116,7 @@
 
 /* IOS-style clear button for text inputs */
 .editable-clear-x {
-   background: url('./images/jquery-ui/clear.png') center center no-repeat;
+   background: url('./images/clear.png') center center no-repeat;
    display: block;
    width: 13px;
    height: 13px;
