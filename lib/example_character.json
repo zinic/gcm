@@ -73,12 +73,7 @@
         "fp": 9,
 
         "basic_speed": 0.25,
-        "basic_move": 0,
-
-        "unarmed_damage": {
-            "thrust": "1d",
-            "swing": "1d"
-        }
+        "basic_move": 0
     },
 
     "culture_features": {
