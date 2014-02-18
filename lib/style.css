@@ -93,7 +93,7 @@ span.heading {
     position: absolute;
 
     top: 120px;
-    left: 450px;
+    left: 750px;
 
     width: 400px;
 }
@@ -106,7 +106,7 @@ span.heading {
     position: absolute;
 
     top: 120px;
-    left: 900px;
+    left: 1220px;
 }
 
 /*
@@ -128,12 +128,38 @@ span.heading {
 */
 
 #basic_attribute_pane {
-    padding-left: 5px;
-
     position: absolute;
     top: 120px;
 
     width: 400px;
+}
+
+#movement_pane {
+    position: absolute;
+    top: 320px;
+
+    width: 680px;
+}
+
+#movement_table_pane {
+    margin-top: 15px;
+}
+
+#movement_table_pane table > thead > tr > td {
+    font-weight: bold;
+    font-size: 14pt;
+
+    padding-bottom: 5px;
+}
+
+#movement_table_pane table > tbody > tr > td.name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#movement_table_pane table > tbody > tr > td.value:not(:first-of-type) {
+    padding-left: 15px;
+    padding-right: 25px;
 }
 
 /*

@@ -1,0 +1,11 @@
+{
+    "templates": [
+        "advantage_table.template.html",
+        "culture_familiarity_table.template.html",
+        "disadvantage_table.template.html",
+        "language_table.template.html",
+        "movement_table.template.html",
+        "reaction_modifiers_table.template.html",
+        "skill_table.template.html"
+    ]
+}

@@ -4,10 +4,13 @@
 
         <!-- Links -->
         <link rel="stylesheet" type="text/css" href="./lib/style.css" />
+        <link rel="stylesheet" type="text/css" href="./lib/jquery-ui.css" />
+        <link rel="stylesheet" type="text/css" href="./lib/jquery-editable.css" />
 
         <!-- Libraries -->
         <script type="text/javascript" src="./lib/jquery.lib.js"></script>
-        <script type="text/javascript" src="./lib/jquery.lib.js"></script>
+        <script type="text/javascript" src="./lib/jquery-ui.js"></script>
+        <script type="text/javascript" src="./lib/jqueryui-editable.min.js"></script>
         <script type="text/javascript" src="./lib/gcm.lib.js"></script>
 
         <!-- Init GCM -->
@@ -84,7 +87,7 @@
                 </div>
             </div>
 
-            <div id="basic_attribute_pane">
+            <div id="basic_attribute_pane" class="side_by_side_stat_table_pane">
                 <span class="heading">Basic Attributes</span>
 
                 <table>
@@ -122,6 +125,13 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+
+            <div id="movement_pane">
+                <span class="heading">Character Movement</span>
+
+                <div id="movement_table_pane">
+                </div>
             </div>
 
             <div id="reaction_modifiers_pane">
