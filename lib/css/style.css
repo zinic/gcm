@@ -79,9 +79,9 @@ span.heading {
 #basic_info_pane {
     position: absolute;
 
-    top: 0px;
+    top: 100px;
 
-    width: 600px;
+    width: 680px;
 }
 
 
@@ -92,7 +92,7 @@ span.heading {
 #culture_features_pane {
     position: absolute;
 
-    top: 120px;
+    top: 220px;
     left: 750px;
 
     width: 400px;
@@ -105,7 +105,7 @@ span.heading {
 #reaction_modifiers_pane {
     position: absolute;
 
-    top: 120px;
+    top: 220px;
     left: 1220px;
 }
 
@@ -116,8 +116,8 @@ span.heading {
 #cp_summary_pane {
     position: absolute;
 
-    top: 0px;
-    left: 650px;
+    top: 100px;
+    left: 750px;
 
     width: 900px;
 }
@@ -129,14 +129,14 @@ span.heading {
 
 #basic_attribute_pane {
     position: absolute;
-    top: 120px;
+    top: 220px;
 
-    width: 400px;
+    width: 680px;
 }
 
 #movement_pane {
     position: absolute;
-    top: 320px;
+    top: 420px;
 
     width: 680px;
 }
@@ -168,7 +168,7 @@ span.heading {
 
 #advantages_pane {
     position: absolute;
-    top: 750px;
+    top: 850px;
     left: 550px;
 
     width: 500px;
@@ -181,7 +181,7 @@ span.heading {
 
 #skills_pane {
     position: absolute;
-    top: 750px;
+    top: 850px;
 
     width: 500px;
 }
@@ -193,8 +193,21 @@ span.heading {
 
 #disadvantages_pane {
     position: absolute;
-    top: 750px;
+    top: 850px;
     left: 1100px;
 
     width: 550px;
+}
+
+
+#user_help_pane {
+    position: absolute;
+
+    border: 1px solid black;
+    background-color: white;
+
+    height: 70px;
+    width: 1000px;
+
+    z-index: 10;
 }
