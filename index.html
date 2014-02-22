@@ -98,7 +98,8 @@
                             <td class="name">Strength</td>
                             <td class="value"><a href="#" id="strength_value" class="zeditable" /></td>
 
-                            <td class="name">Health Points</td>
+                            <td />
+                            <td class="name space_left">Health Points</td>
                             <td class="value"><a href="#" id="hp_value" /></td>
                         </tr>
 
@@ -106,7 +107,8 @@
                             <td class="name">Dexterity</td>
                             <td class="value"><a href="#" id="dexterity_value" /></td>
 
-                            <td class="name">Will</td>
+                            <td />
+                            <td class="name space_left">Will</td>
                             <td class="value"><a href="#" id="will_value" /></td>
                         </tr>
 
@@ -114,7 +116,8 @@
                             <td class="name">IQ</td>
                             <td class="value"><a href="#" id="iq_value" /></td>
 
-                            <td class="name">Perception</td>
+                            <td />
+                            <td class="name space_left">Perception</td>
                             <td class="value"><a href="#" id="perception_value" /></td>
                         </tr>
 
@@ -122,16 +125,21 @@
                             <td class="name">Health</td>
                             <td class="value"><a href="#" id="health_value" /></td>
 
-                            <td class="name">Fatigue Points</td>
+                            <td />
+                            <td class="name space_left">Fatigue Points</td>
                             <td class="value"><a href="#" id="fp_value" /></td>
                         </tr>
+
+                        <tr><td><br /></td></tr>
 
                         <tr>
                             <td class="name">Basic Move</td>
                             <td class="value"><a href="#" id="basic_move_value" /></td>
+                            <td class="value" id="basic_move_total_value"></td>
 
-                            <td class="name">Basic Speed</td>
+                            <td class="name space_left">Basic Speed</td>
                             <td class="value"><a href="#" id="basic_speed_value" /></td>
+                            <td class="value" id="basic_speed_total_value"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -189,8 +197,13 @@
             </div>
 
             <div id="user_help_pane">
-                Placeholder
+                <a href="#" onclick="gcm_save();">Save</a>
+                <a href="#" onclick="gcm_undo();">Undo</a>
+                <a href="#" onclick="gcm_redo();">Redo</a>
+                <a href="#" onclick="gcm_reset();">Reset</a>
             </div>
+
+            <div id="info_pane" class="hidden" />
         </div>
     </body>
 </html>
