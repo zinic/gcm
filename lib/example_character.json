@@ -373,7 +373,7 @@
             }
         },
         {
-            "name": "Armory (Small Arms)",
+            "name": "Armory [Small Arms]",
             "type": "skill",
             "disabled": false,
 
@@ -403,7 +403,7 @@
             }
         },
         {
-            "name": "Engineer (Materials)",
+            "name": "Engineer [Materials]",
             "type": "skill",
             "disabled": true,
 
@@ -433,7 +433,7 @@
             }
         },
         {
-            "name": "Guns (Gyroc)",
+            "name": "Guns [Gyroc]",
             "type": "skill",
             "disabled": false,
 
@@ -448,7 +448,7 @@
             }
         },
         {
-            "name": "Guns (LMG)",
+            "name": "Guns [LMG]",
             "type": "skill",
             "disabled": false,
 
@@ -463,7 +463,7 @@
             }
         },
         {
-            "name": "Guns (Pistol)",
+            "name": "Guns [Pistol]",
             "type": "skill",
             "disabled": false,
 
@@ -569,7 +569,7 @@
             }
         },
         {
-            "name": "Secret (Serious Embarrassment)",
+            "name": "Secret [Serious Embarrassment]",
             "type": "disadvantage",
             "disabled": false,
 
@@ -608,7 +608,7 @@
             }
         },
         {
-            "name": "Insomnia (Severe)",
+            "name": "Insomnia [Severe]",
             "type": "disadvantage",
             "disabled": false,
 
